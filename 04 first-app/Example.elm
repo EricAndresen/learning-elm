@@ -41,13 +41,11 @@ update msg model =
             }
 
 
-view : Model -> Html Msg
-
-
 
 -- view is a function that takes in the model
 
 
+view : Model -> Html Msg
 view model =
     div []
         [ h3 []
